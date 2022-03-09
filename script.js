@@ -8,9 +8,6 @@ class Character {
     }
     
     speak(phraseNum) {
-      //let num = `this.phrase` + phraseNum;
-      //console.log(num);
-  
       if (phraseNum == 1) {
         console.log(this.phrase1);
         
