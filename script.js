@@ -1,5 +1,5 @@
 //define
-class character {
+class Character {
     constructor(name, phrase1, phrase2){
       this.name = name;
       this.phrase1 = phrase1;
@@ -25,8 +25,8 @@ class character {
 }
   
 //create
-let glados = new character("GLaDOS", "Oh, it's you.", "For science. You monster.");
-let wheatley = new character("Wheatley", "You may have a minor case of serious brain damage", "I am NOT a MORON!");
+let glados = new Character("GLaDOS", "Oh, it's you.", "For science. You monster.");
+let wheatley = new Character("Wheatley", "You may have a minor case of serious brain damage", "I am NOT a MORON!");
 
 //communicate
 glados.speak(1);
